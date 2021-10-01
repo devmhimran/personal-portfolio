@@ -8,6 +8,12 @@
 .navbar{
     padding: 10px 0;
 }
+.navbar-item img{
+    max-height: auto !important;
+}
+.logo{
+    width: 100%;
+}
 hr{
     margin: 0;
 }
@@ -20,19 +26,25 @@ hr{
 .hero-img img{
     width: 500px;
 }
-.content{
+.hero-content{
     display: flex;
     align-items: center;
 }
 .name{
     color: #74b0ff;
 }
-.hero-content p{
+.hero-heading{
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 600;
+}
+.hero-title{
     margin: 20px 0;
+    font-size: 20px;
+    line-height: 32px;
 }
 .section-title{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 .about-section{
@@ -101,16 +113,81 @@ hr{
     font-size: 16px;
     font-weight: 600;
 }
-.wordpress-project{
+.wordpress-theme,.blog{
     padding: 100px 0;
     background-color: #fbfbfb;
 }
-.wordpress-project-heading{
+.wordpress-plugin{
+    padding: 100px 0;
+}
+.wordpress-theme-heading,.wordpress-plugin-heading,.blog-heading{
     font-size: 32px;
+    font-weight: 600;
     text-align: center;
 }
-.wordpress-project-sub-text{
+.wordpress-theme-sub-text,.wordpress-plugin-sub-text,.blog-sub-text{
     font-size: 16px;
     line-height: 30px;
     text-align: center;
+}
+.wordpress-theme-card,.wordpress-plugin-card,.blog-card{
+    margin-top: 50px;
+}
+.theme-name,.plugin-name{
+    font-size: 24px;
+    font-weight: 500;
+}
+.footer-main{
+    background-color: #74b0ff;
+}
+.footer-text{
+    color: #fff;
+    padding: 30px 0;
+}
+.contact-section{
+    padding: 180px 0;
+}
+.info{
+    font-size: 32px;
+    font-weight: 600;
+}
+.contact-box,.contact-info{
+    padding: 30px;
+}
+.info-icon{
+    font-size: 24px;
+    margin-right: 15px; 
+
+}
+.email-account{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.social-account{
+    margin-top: 30px;
+}
+.social-account a i{
+    font-size: 30px;
+    margin-right: 25px;
+}
+.fa-facebook-square{
+    color: #1773ea;
+}
+.fa-instagram{
+    color: #a11774;
+}
+.fa-linkedin{
+    color: #0c61bf;
+}
+.fa-twitter{
+    color: #1c9ceb;
+}
+.fa-github{
+    color: #000;
+}
+.fa-gitlab{
+    color: #f46a25;
+}
+.form-status{
+    margin-top: 10px;
 }
